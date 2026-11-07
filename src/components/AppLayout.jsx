@@ -88,14 +88,9 @@ export default function AppLayout({ children }) {
               alt="ATLAS Logo"
               className="w-10 h-10 rounded-xl object-cover border border-brand-400/40 shadow-glow"
             />
-            <div>
-              <span className="font-display font-extrabold text-base tracking-widest text-white">
-                ATLAS
-              </span>
-              <span className="block text-[9px] text-slate-400 uppercase tracking-widest">
-                Stop Searching. Start Arriving.
-              </span>
-            </div>
+            <span className="font-display font-extrabold text-base tracking-widest text-white">
+              ATLAS
+            </span>
           </Link>
         </div>
 

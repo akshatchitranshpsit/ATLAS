@@ -55,14 +55,9 @@ export default function AuthPage() {
             alt="ATLAS Logo"
             className="w-12 h-12 rounded-2xl object-cover border border-brand-400/40 shadow-glow"
           />
-          <div className="text-left">
-            <span className="font-display font-extrabold text-2xl tracking-widest text-white block leading-none">
-              ATLAS
-            </span>
-            <span className="text-[10px] uppercase tracking-widest text-slate-400">
-              Stop Searching. Start Arriving.
-            </span>
-          </div>
+          <span className="font-display font-extrabold text-2xl tracking-widest text-white leading-none">
+            ATLAS
+          </span>
         </Link>
         <h2 className="mt-5 font-display font-bold text-2xl sm:text-3xl text-white">
           {mode === 'login' ? 'Sign in to ATLAS' : 'Create Your ATLAS Account'}
